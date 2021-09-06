@@ -1,0 +1,186 @@
+=============== Sep 1, 2021 (PDT) ===============
+22:00:58.238020 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:00:58.291531 db@open opening
+22:00:58.310551 version@stat F·[] S·0B[] Sc·[]
+22:00:58.335750 db@janitor F·2 G·0
+22:00:58.335750 db@open done T·44.2196ms
+22:00:59.463273 db@close closing
+22:00:59.464274 db@close done T·1.0011ms
+=============== Sep 1, 2021 (PDT) ===============
+22:01:24.168337 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:01:24.169346 version@stat F·[] S·0B[] Sc·[]
+22:01:24.169346 db@open opening
+22:01:24.170355 journal@recovery F·1
+22:01:24.187335 journal@recovery recovering @1
+22:01:24.363307 memdb@flush created L0@2 N·21261 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+22:01:24.379300 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+22:01:24.423305 db@janitor F·3 G·0
+22:01:24.423305 db@open done T·253.9588ms
+22:09:30.999134 db@close closing
+22:09:31.000144 db@close done T·1.0099ms
+=============== Sep 1, 2021 (PDT) ===============
+22:10:18.358398 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:10:18.359397 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+22:10:18.359397 db@open opening
+22:10:18.359397 journal@recovery F·1
+22:10:18.373399 journal@recovery recovering @3
+22:10:18.478397 memdb@flush created L0@5 N·2 S·513B "Las..der,v21264":"eth..ˏ\xa3,v21263"
+22:10:18.507401 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+22:10:18.657173 db@janitor F·4 G·0
+22:10:18.657173 db@open done T·297.7755ms
+22:20:46.691581 db@close closing
+22:20:46.691581 db@close done T·0s
+=============== Sep 1, 2021 (PDT) ===============
+22:22:28.935804 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:22:28.936807 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+22:22:28.936807 db@open opening
+22:22:28.936807 journal@recovery F·1
+22:22:28.937805 journal@recovery recovering @6
+22:22:29.122528 memdb@flush created L0@8 N·37924 S·1MiB "\x00\x11\xc5..l\x10\f,v48312":"\xff\xdf ..\x959\xdf,v54169"
+22:22:29.287611 memdb@flush created L0@9 N·32002 S·3MiB "\x00\x00\x1b..1?\xbf,v82879":"\xff\xfc\xc0..\xb7\b>,v74618"
+22:22:29.547529 memdb@flush created L0@10 N·25726 S·2MiB "\x00\x02[..5,\x84,v91296":"\xff\xffh..\x18V\xa3,v99367"
+22:22:29.806188 memdb@flush created L0@11 N·39782 S·2MiB "\x01\x05\xb1..#Q\xc0,v134249":"\xff\x9a\x1d..\x1c>@,v134260"
+22:22:30.057464 memdb@flush created L0@12 N·42788 S·2MiB "\x00\x04H..\xa65\xa7,v167230":"\xff\xf5\x89..\xbc\x14\xb0,v168245"
+22:22:30.313785 memdb@flush created L0@13 N·33774 S·1MiB "\x00\x1b\xa0..4\x8d\xf3,v205149":"\xffև..\xff:\x88,v205124"
+22:22:30.471657 memdb@flush created L0@14 N·33760 S·1MiB "\x00E\x99..l\xb8\x19,v237412":"\xff\xb0 ..E\xb63,v261450"
+22:22:30.730733 memdb@flush created L0@15 N·55943 S·2MiB "\x00\x16O..\xc3q#,v310310":"\xff\xe7\xc6..o\n\xb8,v309811"
+22:22:30.988509 memdb@flush created L0@16 N·41922 S·2MiB "\x00\x04\x14..\xc9\xc9\xca,v361055":"\xff\xf6r..\x81\x8d\xec,v361181"
+22:22:31.158568 memdb@flush created L0@17 N·38999 S·2MiB "\x00\fK..D\xd8L,v397572":"\xff\xf1\xd0..\xbc\xe0K,v379913"
+22:22:31.305678 memdb@flush created L0@18 N·38829 S·2MiB "\x00\f\xee..~\xdb\xc3,v406054":"\xff\xfd\xf6..\xaaHr,v416642"
+22:22:31.453593 memdb@flush created L0@19 N·30506 S·2MiB "\x00\v\xbf...\x886,v452611":"\xff\xfd\x04..\xb4\x9b\x93,v452533"
+22:22:31.603866 memdb@flush created L0@20 N·32520 S·2MiB "\x00\x05\xfe..\x86\x12a,v495280":"\xff\xfaT..E\xb7\x02,v493416"
+22:22:31.761160 memdb@flush created L0@21 N·33951 S·1MiB "H\x00\t..\x10}\xf7,v517069":"r\x00\x00..'\xc5\xc9,d538759"
+22:22:32.023185 memdb@flush created L0@22 N·52936 S·2MiB "\x00\x01\xc8..1\x9c_,v571528":"\xff\xfa\xbe..9\xd9_,v555706"
+22:22:32.172541 memdb@flush created L0@23 N·42082 S·2MiB "\x00)\x85..N&\xd3,v627265":"\xff\xeb\xa4..\xccr\x9d,v614539"
+22:22:32.434371 memdb@flush created L0@24 N·43948 S·2MiB "\x00\x01\xa8..\u0080\xa9,v673355":"\xff\xe5\x9f..\x84\xe9\xd1,v675173"
+22:22:32.691888 memdb@flush created L0@25 N·26177 S·2MiB "\x00\x14\xc6..\xa4\xe5A,v682065":"\xff\xf8\x9c..\x00\xbd_,v683201"
+22:22:32.851754 memdb@flush created L0@26 N·27870 S·2MiB "\x00\v\xc9..^e5,v729294":"\xff\xfa\xdf..i?\xe9,v728455"
+22:22:33.123048 memdb@flush created L0@27 N·49818 S·2MiB "\x00\x05\x1e..\x98\x11\xc5,v746179":"\xff\xfc\x93..K\x13\xbb,v747315"
+22:22:33.382689 memdb@flush created L0@28 N·45597 S·2MiB "\x00\bo..D\xdah,v787977":"\xff\xf5\x9b..\x8a\x9d\x13,v788289"
+22:22:33.632397 memdb@flush created L0@29 N·43381 S·2MiB "\x00\x04\x94..ի\xf1,v852341":"\xff\xbc\xec..\x06\xa6j,v864399"
+22:22:33.892658 memdb@flush created L0@30 N·43995 S·2MiB "\x00\a?..\x13\xba\xbd,v891323":"\xff\xf9\xbe..H\xe85,v890653"
+22:22:34.142530 memdb@flush created L0@31 N·43920 S·2MiB "\x00\x00<..w.&,v957237":"\xff\xf4\x98..\xb7Č,v938276"
+22:22:34.404333 memdb@flush created L0@32 N·42261 S·2MiB "\x00\n\xb0..07\x83,v1001198":"\xffٽ...˙,v986385"
+22:22:34.663352 memdb@flush created L0@33 N·30287 S·2MiB "\x00\x06\xd4..r\x8b\x86,v1008542":"\xff\xe7\xd6..\x88\xc8N,v1007330"
+22:22:34.808877 memdb@flush created L0@34 N·28587 S·1MiB "\x00\x1a\xa1..\xc0uT,v1053950":"\xff\xbb\x06..\xf8\\X,v1054459"
+22:22:35.057761 memdb@flush created L0@35 N·37553 S·2MiB "\x00\x00\xae..\xbe\x9aL,v1081035":"\xff\xf8\x13..~\xec\x88,v1082080"
+22:22:35.317991 memdb@flush created L0@36 N·53471 S·2MiB "\x00\x04#..|^\x1c,v1108511":"\xff\xc7\xc0..\xa6 \x88,v1109090"
+22:22:35.560578 memdb@flush created L0@37 N·58727 S·3MiB "\x00\x00\xea..yږ,v1193146":"\xff\xfe...\x1c\xdew,v1152283"
+22:22:35.810335 memdb@flush created L0@38 N·40437 S·2MiB "\x00\x03\"..\xed\x0f*,v1219999":"\xff\xe6\x0e..) y,v1242230"
+22:22:36.068631 memdb@flush created L0@39 N·28762 S·2MiB "\x007T..\x1cRc,v1254390":"\xff\xdae..M\xe6b,v1275443"
+22:22:36.260752 memdb@flush created L0@40 N·42564 S·2MiB "\x00\b\r..<\x11\xc5,v1297605":"\xff\xfe^..\xa3\xec\xb7,v1296899"
+22:22:36.522131 memdb@flush created L0@41 N·50021 S·2MiB "\x00\f4..\xb7w\x92,v1342793":"\xff\xef;..\x9a\xb7\xde,v1336836"
+22:22:36.781272 memdb@flush created L0@42 N·45270 S·2MiB "\x00'\xd0..\x05Ĩ,v1396210":"\xff\xeb\x16..\x9a\xd1^,v1397688"
+22:22:37.051426 memdb@flush created L0@43 N·37597 S·2MiB "\x00\x1ei..\xae:\xe3,v1450956":"\xff\xf5;..:(\xf8,v1429914"
+22:22:37.311564 memdb@flush created L0@44 N·50857 S·2MiB "\x00\x0f#..A#!,v1496812":"\xff\xfb\x15..\xed\n\xd7,v1496207"
+22:22:37.573466 memdb@flush created L0@45 N·36886 S·2MiB "\x00\x02\x96..\xe0ֵ,v1524219":"\xff\xed\xbd..\xff\x8bg,v1535114"
+22:22:37.733515 memdb@flush created L0@46 N·35648 S·2MiB "\x00\x02f..g\x99\x8f,v1551006":"\xff\xfc\xd7..|\xbf\xec,v1550465"
+22:22:37.992850 memdb@flush created L0@47 N·49464 S·2MiB "\x00\x1a ..y\n\b,v1626838":"\xff\xfb\xb4..\xe2\xd6\xc9,v1626980"
+22:22:38.263098 memdb@flush created L0@48 N·52937 S·2MiB "\x00\x05\xe3..?+=,v1674515":"\xff\xf8\n..k\xf8!,v1675216"
+22:22:38.457806 memdb@flush created L0@49 N·39776 S·2MiB "\x00%\x1d..\x85e\x16,v1700128":"\xff\xf3{..\x02@6,v1699784"
+22:22:38.751377 memdb@flush created L0@50 N·42407 S·2MiB "\x00\fP..\xa9:\xd5,v1762813":"\xff\xfa\xa4..\xaci\",v1743638"
+22:22:38.923059 memdb@flush created L0@51 N·36007 S·2MiB "\x00\x05(..\xdc (,v1791084":"\xff\xfb\xcd..\x04\xb2\xd0,v1775900"
+22:22:39.104275 memdb@flush created L0@52 N·41531 S·2MiB "\x00\x12\xa7..\x12\xa8[,v1839875":"\xff\xfa\xb2..\xc1\xd8\x00,v1834685"
+22:22:39.237718 memdb@flush created L0@53 N·27384 S·1MiB "\x00\x123..Śy,v1848702":"\xff\xff\xa8..\x9c\xb3\xfa,v1858544"
+22:22:39.239721 version@stat F·[48] S·106MiB[106MiB] Sc·[12.00]
+22:22:39.330767 db@janitor F·50 G·0
+22:22:39.330767 db@open done T·10.3939604s
+22:22:39.330767 table@compaction L0·48 -> L1·0 S·106MiB Q·1867850
+=============== Sep 1, 2021 (PDT) ===============
+22:23:43.575120 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:23:43.576122 version@stat F·[48] S·106MiB[106MiB] Sc·[12.00]
+22:23:43.576122 db@open opening
+22:23:43.577121 journal@recovery F·1
+22:23:43.577121 journal@recovery recovering @54
+22:23:43.578121 version@stat F·[48] S·106MiB[106MiB] Sc·[12.00]
+22:23:43.995818 db@janitor F·51 G·1
+22:23:43.995818 db@janitor removing table-56
+22:23:43.995818 db@open done T·419.6963ms
+22:23:43.996818 table@compaction L0·48 -> L1·0 S·106MiB Q·1867850
+=============== Sep 1, 2021 (PDT) ===============
+22:30:18.919524 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:30:18.920528 version@stat F·[48] S·106MiB[106MiB] Sc·[12.00]
+22:30:18.920528 db@open opening
+22:30:18.921525 journal@recovery F·1
+22:30:18.932526 journal@recovery recovering @56
+22:30:18.945516 version@stat F·[48] S·106MiB[106MiB] Sc·[12.00]
+22:30:19.360459 db@janitor F·51 G·1
+22:30:19.360459 db@janitor removing table-58
+22:30:19.360459 db@open done T·439.9309ms
+22:30:19.360459 table@compaction L0·48 -> L1·0 S·106MiB Q·1867850
+22:30:19.661481 table@build created L1@60 N·16913 S·2MiB "\x00\x00\x1b..1?\xbf,v82879":"\x0fh\t..\x86\x81\xc1,v680142"
+22:30:19.797507 table@build created L1@61 N·17144 S·2MiB "\x0fh\x10..\x8bA\xae,v84721":"\x1e\xcf\xe5..ч\x8b,v626805"
+22:30:19.923517 table@build created L1@62 N·16927 S·2MiB "\x1e\xcf\xee..s\"\xd1,v1000038":".>/..\x9296,v1730831"
+22:30:20.142533 table@build created L1@63 N·17229 S·2MiB ".>?..\x81g\xd1,v351659":"=\xb5#.. |H,v14152"
+22:30:20.379552 table@build created L1@64 N·26479 S·2MiB "=\xb51..elM,v1762840":"H\x19\u007f..i\x12(,v698423"
+22:30:20.685576 table@build created L1@65 N·46917 S·2MiB "H\x19\x80..j\xcf\xd9,v1457246":"Hg\xcd..d<\x81,v1051660"
+22:30:21.035622 table@build created L1@66 N·46998 S·2MiB "Hg\xcd..y\x9d\xe0,v330089":"H\xb6g..\x8d\xf9',v111384"
+22:30:21.412652 table@build created L1@67 N·44995 S·2MiB "H\xb6h..\xb2]\xd8,v1577581":"I\xf3\t..\x99\xa8\xff,v1834077"
+22:30:22.358151 table@build created L1@68 N·17007 S·2MiB "I\xf3<..D\x1e<,v1744023":"Y\u007f\x1b..`\xab\xc3,v184631"
+22:30:26.520575 table@build created L1@69 N·17745 S·2MiB "Y\u007f\x98..\xea\xeb\x0f,v1308514":"h\x00\x00..\xb2؆,v1861428"
+22:30:26.745610 table@build created L1@70 N·37262 S·2MiB "h\x00\x00..؆t,v1861426":"ly,..5z\xaa,v1851779"
+22:30:26.971628 table@build created L1@71 N·38702 S·2MiB "ly-..L\xe7\x9e,v1320253":"q\x18{..jZ#,v76990"
+22:30:27.652684 table@build created L1@72 N·21577 S·2MiB "q\x18\x97..\xf0\xbe\xf4,v284524":"|\xac\xe6..\xe3o\xa3,v1551894"
+22:30:27.789708 table@build created L1@73 N·16821 S·2MiB "|\xac\xea..,\xcc\x06,v1534897":"\x8b\xb0\xb0..'\xc7t,v569156"
+22:30:27.914718 table@build created L1@74 N·17055 S·2MiB "\x8b\xb0\xc7..\xa2>\xc6,v682349":"\x9bUz..\xf9\x9d\xac,v679493"
+22:30:28.053883 table@build created L1@75 N·16997 S·2MiB "\x9bU\xa0..\xc8\xd4N,v1336759":"\xaa\xad\xcc..LB-,v454637"
+22:30:28.190727 table@build created L1@76 N·17055 S·2MiB "\xaa\xad\xec..\x03\xf5k,v747419":"\xba@(..\xbc$V,v237603"
+22:30:28.352741 table@build created L1@77 N·16664 S·2MiB "\xba@\xbd..\xc0\xafr,v182118":"\xc94\xcb..9\x82/,v1055048"
+22:30:28.518754 table@build created L1@78 N·17063 S·2MiB "\xc94\xf7..m\xe8\x1e,v1191164":"ؔS..,\xcf7,v1054253"
+22:30:28.654764 table@build created L1@79 N·17042 S·2MiB "ؔ\xb6..\r\xfb\x14,v1535373":"\xe8\"\x18..%I\x8c,v681918"
+22:30:28.791777 table@build created L1@80 N·17099 S·2MiB "\xe8\"\"..\x87N\xb1,v1553139":"\xf7\xb3\xd8..O\xf2\xf4,v1079881"
+22:30:28.865795 table@build created L1@81 N·9037 S·1MiB "\xf7\xb4\x0e..u\x0f:,v955972":"\xff\xff\xa8..\x9c\xb3\xfa,v1858544"
+22:30:28.865795 version@stat F·[0 22] S·44MiB[0B 44MiB] Sc·[0.00 0.44]
+22:30:28.876796 table@compaction committed F-26 S-62MiB Ke·0 D·1357119 T·9.5153388s
+22:30:29.242814 db@write was delayed N·50 T·152.2164ms
+22:30:29.438035 table@remove removed @53
+22:30:29.438829 table@remove removed @52
+22:30:29.440828 table@remove removed @51
+22:30:29.441828 table@remove removed @50
+22:30:29.443828 table@remove removed @49
+22:30:29.444829 table@remove removed @48
+22:30:29.446831 table@remove removed @47
+22:30:29.447830 table@remove removed @46
+22:30:29.448829 table@remove removed @45
+22:30:29.449829 table@remove removed @44
+22:30:29.450833 table@remove removed @43
+22:30:29.451830 table@remove removed @42
+22:30:29.452829 table@remove removed @41
+22:30:29.453829 table@remove removed @40
+22:30:29.454830 table@remove removed @39
+22:30:29.455831 table@remove removed @38
+22:30:29.456830 table@remove removed @37
+22:30:29.457874 table@remove removed @36
+22:30:29.458830 table@remove removed @35
+22:30:29.459830 table@remove removed @34
+22:30:29.459830 table@remove removed @33
+22:30:29.460830 table@remove removed @32
+22:30:29.461831 table@remove removed @31
+22:30:29.462832 table@remove removed @30
+22:30:29.463838 table@remove removed @29
+22:30:29.464830 table@remove removed @28
+22:30:29.465832 table@remove removed @27
+22:30:29.466830 table@remove removed @26
+22:30:29.469831 table@remove removed @25
+22:30:29.470831 table@remove removed @24
+22:30:29.471832 table@remove removed @23
+22:30:29.473832 table@remove removed @22
+22:30:29.474833 table@remove removed @21
+22:30:29.475831 table@remove removed @20
+22:30:29.476832 table@remove removed @19
+22:30:29.477832 table@remove removed @18
+22:30:29.478831 table@remove removed @17
+22:30:29.479831 table@remove removed @16
+22:30:29.479831 table@remove removed @15
+22:30:29.480831 table@remove removed @14
+22:30:29.481831 table@remove removed @13
+22:30:29.482994 table@remove removed @12
+22:30:29.483832 table@remove removed @11
+22:30:29.484834 table@remove removed @10
+22:30:29.486833 table@remove removed @9
+22:30:29.488000 table@remove removed @8
+22:30:29.488000 table@remove removed @5
+22:30:29.488835 table@remove removed @2
+=============== Sep 6, 2021 (PDT) ===============
+08:34:26.176670 db@close closing
+08:34:26.181672 db@close done T·5.0015ms

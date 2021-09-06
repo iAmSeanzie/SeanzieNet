@@ -1,0 +1,38 @@
+=============== Sep 1, 2021 (PDT) ===============
+22:03:06.624662 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:03:06.677664 db@open opening
+22:03:06.678665 version@stat F·[] S·0B[] Sc·[]
+22:03:06.699665 db@janitor F·2 G·0
+22:03:06.699665 db@open done T·22.0012ms
+22:10:27.283153 db@close closing
+22:10:27.283153 db@close done T·0s
+=============== Sep 1, 2021 (PDT) ===============
+22:10:57.286926 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:10:57.287925 version@stat F·[] S·0B[] Sc·[]
+22:10:57.287925 db@open opening
+22:10:57.288924 journal@recovery F·1
+22:10:57.296924 journal@recovery recovering @1
+22:10:57.335925 memdb@flush created L0@2 N·2124 S·65KiB "loc..seq,v24":"version,v1"
+22:10:57.351927 version@stat F·[1] S·65KiB[65KiB] Sc·[0.25]
+22:10:57.413934 db@janitor F·3 G·0
+22:10:57.414933 db@open done T·126.0094ms
+22:20:36.833643 db@close closing
+22:20:36.834399 db@close done T·755.7µs
+=============== Sep 1, 2021 (PDT) ===============
+22:30:42.329973 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:30:42.330976 version@stat F·[1] S·65KiB[65KiB] Sc·[0.25]
+22:30:42.330976 db@open opening
+22:30:42.330976 journal@recovery F·1
+22:30:42.331975 journal@recovery recovering @3
+22:30:42.438982 memdb@flush created L0@5 N·3180 S·94KiB "loc..seq,v2144":"n:\xff..ing,v2234"
+22:30:42.440982 version@stat F·[2] S·159KiB[159KiB] Sc·[0.50]
+22:30:42.486985 db@janitor F·4 G·0
+22:30:42.486985 db@open done T·156.0086ms
+22:30:42.509986 table@compaction L0·2 -> L1·0 S·159KiB Q·5306
+22:30:42.533989 table@build created L1@8 N·3381 S·129KiB "loc..seq,v2144":"version,v1"
+22:30:42.533989 version@stat F·[0 1] S·129KiB[0B 129KiB] Sc·[0.00 0.00]
+22:30:42.551989 table@compaction committed F-1 S-30KiB Ke·0 D·1923 T·42.0035ms
+22:30:42.555992 table@remove removed @2
+=============== Sep 6, 2021 (PDT) ===============
+08:34:30.923598 db@close closing
+08:34:30.924595 db@close done T·997µs
