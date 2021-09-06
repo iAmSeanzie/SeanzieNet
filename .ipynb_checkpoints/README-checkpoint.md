@@ -1,3 +1,35 @@
+Public address of the key:   0x5F6d6b4890bA78d2b85f258826B979E816729c34              Path of the secret key file: ..\SeanzieNet\node1\keystore\UTC--2021-09-06T15-42-51.914750100Z--5f6d6b4890ba78d2b85f258826b979e816729c34
+
+./geth --datadir node1 --unlock "0x5F6d6b4890bA78d2b85f258826B979E816729c34" --mine --rpc --allow-insecure-unlock
+
+Public address of the key:   0x3A696BCe3D4BcE1D869f01B53Cb87736Fb5e80a7              Path of the secret key file: ..\SeanzieNet\node2\keystore\UTC--2021-09-06T15-43-09.985273300Z--3a696bce3d4bce1d869f01b53cb87736fb5e80a7
+
+./geth --datadir ../seanzienet/node2 --unlock "0x3A696BCe3D4BcE1D869f01B53Cb87736Fb5e80a7" --mine --port 30304 --bootnodes "enode://89e79f4ddf7a5f109b4da800319e681fb8800d58e70a8e63db80d3b09f2a35a185602bbf549571107fd689f646fa619f92e8058d9d3320eac46cba23e492e872@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+./geth --datadir ../SeanzieNet/Puppernet/node1 --unlock "B0Fcf198852a0bbEA47AA18920519E70B6478075" --mine --rpc --allow-insecure-unlock
+
+./geth --datadir ../SeanzieNet/Puppernet/node2 --unlock "799975eecBfEf09Aa59FE56bf17Fd545BEf3814F" --port 30304 --bootnodes "enode://d9af4da0b62f3d6704c6065c77e14a590c87eefeae5ca146d1903bb2ff62b2017514ea5fd22cf5f82d9c5193d2071ca614a1ebd642a7eb55e5893e4a9f2d867d@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+
+
+./geth --datadir ../SeanzieNet/Puppernet/node1 --unlock "81ab31fc81be937d7fa090da81248f29b76a2444" --mine --rpc --allow-insecure-unlock 
+
+
+./geth --datadir ../SeanzieNet/Puppernet/node2 --unlock "0027668eF1d932a2A82234d93E0B079149e48943" --port 30304 --bootnodes "enode://93e37afcf49c08fa50a982e87b6c38ee0712f414db85d0fd67586811c4816bc2e113bb9763de96719076786ec6d39cb883e6c7ecdee28e3148744de534022173@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+./geth --datadir ../SeanzieNet/Puppernet/node1 --unlock "81ab31fc81be937d7fa090da81248f29b76a2444" --mine --rpc --allow-insecure-unlock 
+
+./geth --datadir ../SeanzieNet/Puppernet/node2 --unlock "0027668eF1d932a2A82234d93E0B079149e48943" --port 30304 --bootnodes "enode://93e37afcf49c08fa50a982e87b6c38ee0712f414db85d0fd67586811c4816bc2e113bb9763de96719076786ec6d39cb883e6c7ecdee28e3148744de534022173@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+Homework:
+Public address of the key1:   0x81ab31fC81Be937D7fa090DA81248f29B76a2444
+Path of the secret key file: ..\SeanzieNet\Puppernet\node1\keystore\UTC--2021-08-26T18-24-48.447514900Z--81ab31fc81be937d7fa090da81248f29b76a2444
+
+Public address of the key2:   0x0027668eF1d932a2A82234d93E0B079149e48943              
+./pPath of the secret key file: ..\SeanzieNet\Puppernet\node2\keystore\UTC--2021-08-26T18-27-33.884036600Z--0027668ef1d932a2a82234d93e0b079149e48943
+
+
+
 # Proof of Authority Development Chain
 
 For this assignment, you will take on the role of a new developer at a small bank.
