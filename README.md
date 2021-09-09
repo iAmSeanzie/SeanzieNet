@@ -1,9 +1,11 @@
 Public address of the key:   0x5F6d6b4890bA78d2b85f258826B979E816729c34              Path of the secret key file: ..\SeanzieNet\node1\keystore\UTC--2021-09-06T15-42-51.914750100Z--5f6d6b4890ba78d2b85f258826b979e816729c34
 
-./geth --datadir node1 --unlock "0x5F6d6b4890bA78d2b85f258826B979E816729c34" --mine --rpc --allow-insecure-unlock
+******USE THESE ******
+./geth --datadir ../seanzienet/node1 --unlock "0x5F6d6b4890bA78d2b85f258826B979E816729c34" --mine --rpc --allow-insecure-unlock
 
 Public address of the key:   0x3A696BCe3D4BcE1D869f01B53Cb87736Fb5e80a7              Path of the secret key file: ..\SeanzieNet\node2\keystore\UTC--2021-09-06T15-43-09.985273300Z--3a696bce3d4bce1d869f01b53cb87736fb5e80a7
 
+******USE THESE ******
 ./geth --datadir ../seanzienet/node2 --unlock "0x3A696BCe3D4BcE1D869f01B53Cb87736Fb5e80a7" --mine --port 30304 --bootnodes "enode://89e79f4ddf7a5f109b4da800319e681fb8800d58e70a8e63db80d3b09f2a35a185602bbf549571107fd689f646fa619f92e8058d9d3320eac46cba23e492e872@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
 ./geth --datadir ../SeanzieNet/Puppernet/node1 --unlock "B0Fcf198852a0bbEA47AA18920519E70B6478075" --mine --rpc --allow-insecure-unlock
